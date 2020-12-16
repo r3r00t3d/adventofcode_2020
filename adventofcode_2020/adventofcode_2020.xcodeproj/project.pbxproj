@@ -10,6 +10,8 @@
 		2FB805C72587A76600D33A8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB805C62587A76600D33A8A /* main.swift */; };
 		2FB805D72587A88100D33A8A /* FileReader1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB805D62587A88100D33A8A /* FileReader1.swift */; };
 		2FB80621258810C900D33A8A /* Sol1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB80620258810C900D33A8A /* Sol1.swift */; };
+		2FB80629258A14CF00D33A8A /* FileReader2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB80628258A14CF00D33A8A /* FileReader2.swift */; };
+		2FB8062D258A153200D33A8A /* Sol2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8062C258A153200D33A8A /* Sol2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,8 @@
 		2FB805D62587A88100D33A8A /* FileReader1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader1.swift; sourceTree = "<group>"; };
 		2FB806152587BC1D00D33A8A /* inputProb1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = inputProb1.txt; sourceTree = "<group>"; };
 		2FB80620258810C900D33A8A /* Sol1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol1.swift; sourceTree = "<group>"; };
+		2FB80628258A14CF00D33A8A /* FileReader2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader2.swift; sourceTree = "<group>"; };
+		2FB8062C258A153200D33A8A /* Sol2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		2FB805C52587A76600D33A8A /* adventofcode_2020 */ = {
 			isa = PBXGroup;
 			children = (
+				2FB806242588B25000D33A8A /* Sol2 */,
 				2FB805CE2587A77700D33A8A /* Sol1 */,
 				2FB805C62587A76600D33A8A /* main.swift */,
 			);
@@ -76,6 +81,15 @@
 				2FB80620258810C900D33A8A /* Sol1.swift */,
 			);
 			path = Sol1;
+			sourceTree = "<group>";
+		};
+		2FB806242588B25000D33A8A /* Sol2 */ = {
+			isa = PBXGroup;
+			children = (
+				2FB80628258A14CF00D33A8A /* FileReader2.swift */,
+				2FB8062C258A153200D33A8A /* Sol2.swift */,
+			);
+			path = Sol2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FB80621258810C900D33A8A /* Sol1.swift in Sources */,
+				2FB80629258A14CF00D33A8A /* FileReader2.swift in Sources */,
 				2FB805D72587A88100D33A8A /* FileReader1.swift in Sources */,
 				2FB805C72587A76600D33A8A /* main.swift in Sources */,
+				2FB8062D258A153200D33A8A /* Sol2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

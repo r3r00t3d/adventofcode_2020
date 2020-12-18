@@ -4,7 +4,11 @@ import Foundation
 //sol1.solve1_1()
 //sol1.solve1_2()
 
-let sol2 = Sol2()
-sol2.solve2_1()
-sol2.solve2_2()
+//let sol2 = Sol2()
+//sol2.solve2_1()
+//sol2.solve2_2()
+
+let sol3 = Sol3()
+sol3.solve3_1()
+sol3.solve3_2()
 

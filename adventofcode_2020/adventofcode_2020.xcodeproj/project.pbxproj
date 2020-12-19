@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F8DE4FA258D796900D6D68C /* FileReader4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE4F9258D796900D6D68C /* FileReader4.swift */; };
+		2F8DE4FE258D7BEF00D6D68C /* Sol4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE4FD258D7BEF00D6D68C /* Sol4.swift */; };
 		2FA956C5258B934C00A4D9AB /* FileReader3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA956C4258B934C00A4D9AB /* FileReader3.swift */; };
 		2FA956C9258B93A000A4D9AB /* Sol3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA956C8258B93A000A4D9AB /* Sol3.swift */; };
 		2FB805C72587A76600D33A8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB805C62587A76600D33A8A /* main.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F8DE4F9258D796900D6D68C /* FileReader4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader4.swift; sourceTree = "<group>"; };
+		2F8DE4FD258D7BEF00D6D68C /* Sol4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol4.swift; sourceTree = "<group>"; };
 		2FA956C4258B934C00A4D9AB /* FileReader3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader3.swift; sourceTree = "<group>"; };
 		2FA956C8258B93A000A4D9AB /* Sol3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol3.swift; sourceTree = "<group>"; };
 		2FB805C32587A76600D33A8A /* adventofcode_2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = adventofcode_2020; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F8DE4F8258D794300D6D68C /* Sol4 */ = {
+			isa = PBXGroup;
+			children = (
+				2F8DE4F9258D796900D6D68C /* FileReader4.swift */,
+				2F8DE4FD258D7BEF00D6D68C /* Sol4.swift */,
+			);
+			path = Sol4;
+			sourceTree = "<group>";
+		};
 		2FA956C3258B933400A4D9AB /* Sol3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 		2FB805C52587A76600D33A8A /* adventofcode_2020 */ = {
 			isa = PBXGroup;
 			children = (
+				2F8DE4F8258D794300D6D68C /* Sol4 */,
 				2FA956C3258B933400A4D9AB /* Sol3 */,
 				2FB806242588B25000D33A8A /* Sol2 */,
 				2FB805CE2587A77700D33A8A /* Sol1 */,
@@ -163,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8DE4FE258D7BEF00D6D68C /* Sol4.swift in Sources */,
 				2FA956C5258B934C00A4D9AB /* FileReader3.swift in Sources */,
 				2FB80621258810C900D33A8A /* Sol1.swift in Sources */,
 				2FB80629258A14CF00D33A8A /* FileReader2.swift in Sources */,
+				2F8DE4FA258D796900D6D68C /* FileReader4.swift in Sources */,
 				2FB805D72587A88100D33A8A /* FileReader1.swift in Sources */,
 				2FA956C9258B93A000A4D9AB /* Sol3.swift in Sources */,
 				2FB805C72587A76600D33A8A /* main.swift in Sources */,

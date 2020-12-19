@@ -8,7 +8,10 @@ import Foundation
 //sol2.solve2_1()
 //sol2.solve2_2()
 
-let sol3 = Sol3()
-sol3.solve3_1()
-sol3.solve3_2()
+//let sol3 = Sol3()
+//sol3.solve3_1()
+//sol3.solve3_2()
+
+let sol4 = Sol4()
+sol4.solve4_1()
 

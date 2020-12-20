@@ -16,8 +16,13 @@ import Foundation
 //sol4.solve4_1()
 //sol4.solve4_2()
 
-let sol5 = Sol5()
-sol5.solve5_1()
-sol5.solve5_2()
+//let sol5 = Sol5()
+//sol5.solve5_1()
+//sol5.solve5_2()
+
+let sol6 = Sol6()
+sol6.solve6_1()
+sol6.solve6_2()
+
 
 

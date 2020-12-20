@@ -11,6 +11,8 @@
 		2F8DE4FE258D7BEF00D6D68C /* Sol4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE4FD258D7BEF00D6D68C /* Sol4.swift */; };
 		2F8DE502258F622A00D6D68C /* FileReader5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE501258F622A00D6D68C /* FileReader5.swift */; };
 		2F8DE506258F629500D6D68C /* Sol5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE505258F629500D6D68C /* Sol5.swift */; };
+		2F8DE50A258FC1F800D6D68C /* Sol6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE509258FC1F800D6D68C /* Sol6.swift */; };
+		2F8DE50E258FC20C00D6D68C /* FileReader6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DE50D258FC20C00D6D68C /* FileReader6.swift */; };
 		2FA956C5258B934C00A4D9AB /* FileReader3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA956C4258B934C00A4D9AB /* FileReader3.swift */; };
 		2FA956C9258B93A000A4D9AB /* Sol3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA956C8258B93A000A4D9AB /* Sol3.swift */; };
 		2FB805C72587A76600D33A8A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB805C62587A76600D33A8A /* main.swift */; };
@@ -37,6 +39,8 @@
 		2F8DE4FD258D7BEF00D6D68C /* Sol4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol4.swift; sourceTree = "<group>"; };
 		2F8DE501258F622A00D6D68C /* FileReader5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader5.swift; sourceTree = "<group>"; };
 		2F8DE505258F629500D6D68C /* Sol5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol5.swift; sourceTree = "<group>"; };
+		2F8DE509258FC1F800D6D68C /* Sol6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol6.swift; sourceTree = "<group>"; };
+		2F8DE50D258FC20C00D6D68C /* FileReader6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader6.swift; sourceTree = "<group>"; };
 		2FA956C4258B934C00A4D9AB /* FileReader3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader3.swift; sourceTree = "<group>"; };
 		2FA956C8258B93A000A4D9AB /* Sol3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol3.swift; sourceTree = "<group>"; };
 		2FB805C32587A76600D33A8A /* adventofcode_2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = adventofcode_2020; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +81,15 @@
 			path = Sol5;
 			sourceTree = "<group>";
 		};
+		2F8DE508258FC13F00D6D68C /* Sol6 */ = {
+			isa = PBXGroup;
+			children = (
+				2F8DE509258FC1F800D6D68C /* Sol6.swift */,
+				2F8DE50D258FC20C00D6D68C /* FileReader6.swift */,
+			);
+			path = Sol6;
+			sourceTree = "<group>";
+		};
 		2FA956C3258B933400A4D9AB /* Sol3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +119,7 @@
 		2FB805C52587A76600D33A8A /* adventofcode_2020 */ = {
 			isa = PBXGroup;
 			children = (
+				2F8DE508258FC13F00D6D68C /* Sol6 */,
 				2F8DE500258F621400D6D68C /* Sol5 */,
 				2F8DE4F8258D794300D6D68C /* Sol4 */,
 				2FA956C3258B933400A4D9AB /* Sol3 */,
@@ -200,6 +214,8 @@
 				2F8DE4FA258D796900D6D68C /* FileReader4.swift in Sources */,
 				2FB805D72587A88100D33A8A /* FileReader1.swift in Sources */,
 				2FA956C9258B93A000A4D9AB /* Sol3.swift in Sources */,
+				2F8DE50E258FC20C00D6D68C /* FileReader6.swift in Sources */,
+				2F8DE50A258FC1F800D6D68C /* Sol6.swift in Sources */,
 				2FB805C72587A76600D33A8A /* main.swift in Sources */,
 				2FB8062D258A153200D33A8A /* Sol2.swift in Sources */,
 			);

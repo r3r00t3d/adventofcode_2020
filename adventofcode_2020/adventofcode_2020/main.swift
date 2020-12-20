@@ -18,5 +18,6 @@ import Foundation
 
 let sol5 = Sol5()
 sol5.solve5_1()
+sol5.solve5_2()
 
 

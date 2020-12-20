@@ -14,4 +14,6 @@ import Foundation
 
 let sol4 = Sol4()
 sol4.solve4_1()
+sol4.solve4_2()
+
 

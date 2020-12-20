@@ -33,11 +33,11 @@ struct Passport {
     var hgt: Int?
     var hgtUnit: String?
     var hcl: String?
-    var ecl: String?
+    var ecl: EyeColor?
     var pid: String?
     
     func printElems() -> String {
-        return "byr: \(byr ?? 0), iyr: \(iyr ?? 0), eyr: \(eyr ?? 0), hgt: \(hgt ?? 0), hgtUnit: \(hgtUnit ?? ""), hcl: \(hcl ?? ""), ecl: \(ecl ?? ""), pid: \(pid ?? "")"
+        return "byr: \(byr ?? 0), iyr: \(iyr ?? 0), eyr: \(eyr ?? 0), hgt: \(hgt ?? 0), hgtUnit: \(hgtUnit ?? ""), hcl: \(hcl ?? ""), ecl: \(ecl ?? EyeColor.oth), pid: \(pid ?? "")"
     }
     
     func hasNilField() -> Bool {
@@ -62,15 +62,13 @@ struct Passport {
             }
             break
         case "hgt":
-            let strPattern = "[A-Za-z]+"
-            let numberPattern = "[0-9]+"
             if let safeStr = value as? String {
-                let height = Int(safeStr.replacingOccurrences(of: strPattern, with: "", options: .regularExpression))
+                let height = Int(safeStr.replacingOccurrences(of: #"[A-Za-z]+"#, with: "", options: .regularExpression))
                 if let safeHeight = height {
                     self.hgt = safeHeight
                 }
                 
-                let heightUnit = safeStr.replacingOccurrences(of: numberPattern, with: "", options: .regularExpression)
+                let heightUnit = safeStr.replacingOccurrences(of: #"[0-9]+"#, with: "", options: .regularExpression)
                 self.hgtUnit = heightUnit
             }
             break
@@ -81,8 +79,12 @@ struct Passport {
             break
         case "ecl":
             if let safeStr = value as? String {
-//                self.ecl = EyeColor.withLabel(safeStr)
-                self.ecl = safeStr
+                if let eclSafe = EyeColor(rawValue: safeStr) {
+                    self.ecl = eclSafe
+                } else {
+//                    print("Wrong eyecolor: \(safeStr)")
+                }
+                
             }
             break
         case "pid":

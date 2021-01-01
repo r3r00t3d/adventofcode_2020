@@ -37,7 +37,7 @@ struct Sol7 {
                 break next
             }
         }
-        if var shGoldNode = searchNode {
+        if let shGoldNode = searchNode {
             data7.bags!.dfs_7_2(shGoldNode)
             print("Number of bags inside shiny gold bag is: \(data7.bags!.totalBags)")
         }

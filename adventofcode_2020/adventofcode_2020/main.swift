@@ -24,9 +24,14 @@ import Foundation
 //sol6.solve6_1()
 //sol6.solve6_2()
 
-let sol7 = Sol7()
-sol7.solve7_1()
-sol7.solve7_2()
+//let sol7 = Sol7()
+//sol7.solve7_1()
+//sol7.solve7_2()
+
+var sol8 = Sol8()
+sol8.solve8_1()
+sol8.solve8_2()
+
 
 
 

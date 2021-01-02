@@ -28,9 +28,13 @@ import Foundation
 //sol7.solve7_1()
 //sol7.solve7_2()
 
-var sol8 = Sol8()
-sol8.solve8_1()
-sol8.solve8_2()
+//var sol8 = Sol8()
+//sol8.solve8_1()
+//sol8.solve8_2()
+
+var sol9 = Sol9()
+sol9.solve9_1()
+sol9.solve9_2_2()
 
 
 

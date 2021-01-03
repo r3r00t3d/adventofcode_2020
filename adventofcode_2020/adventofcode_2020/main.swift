@@ -32,9 +32,14 @@ import Foundation
 //sol8.solve8_1()
 //sol8.solve8_2()
 
-var sol9 = Sol9()
-sol9.solve9_1()
-sol9.solve9_2_2()
+//var sol9 = Sol9()
+//sol9.solve9_1()
+//sol9.solve9_2_2()
+
+var sol10 = Sol10()
+sol10.solve10_1()
+sol10.solve10_2()
+
 
 
 

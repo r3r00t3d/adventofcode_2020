@@ -15,6 +15,7 @@ class Node<T: Equatable>: Equatable {
     var value: T?
     var edges: [Edge<T>]
     var visited: Bool = false
+    var noPaths: Int = 0
     
     init(_ value: T?) {
         self.value = value

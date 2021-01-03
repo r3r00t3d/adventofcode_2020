@@ -11,6 +11,7 @@ class Graph<T: Equatable> {
     var nodes: [Node<T>]
     var edges: [Edge<T>]
     var totalBags: Int = 0
+    var totalPathCount: Int = 0
     
     init(nodes: [Node<T>], edges: [Edge<T>]) {
         self.nodes = nodes
@@ -128,5 +129,41 @@ class Graph<T: Equatable> {
                 }
             }
         }
+    }
+    
+    func dfs_10_2(_ startNode: Node<T>) {
+        // var visited: [Node<T>] = []
+        dfsHelper10_2(startNode)
+    }
+    
+    func dfsHelper10_2(_ current: Node<T>) {
+        if current.visited {
+            return
+        }
+        var testFrom = 0
+        for edgeObj in current.edges {
+            if current == edgeObj.nodeFrom! {
+                testFrom += 1
+            }
+        }
+        
+        //if leaf
+        if testFrom == 0 {
+            current.noPaths = 1
+            print("\(current.value!) has \(current.noPaths) path")
+            current.visited = true
+            return
+        }
+        for edgeObj in current.edges {
+            if current == edgeObj.nodeFrom! {
+                if !edgeObj.nodeTo!.visited {
+                    dfsHelper10_2(edgeObj.nodeTo!)
+                }
+                current.noPaths += edgeObj.nodeTo!.noPaths
+            }
+        }
+        print("\(current.value!) has \(current.noPaths) paths")
+        current.visited = true
+        return
     }
 }
